@@ -107,8 +107,10 @@ STRATEGIES_CODEES = {
 }
 
 # ── Désactivé temporairement pour tester le pipeline ──────────────────────────
-STRATEGIES_AI = {}
-
+STRATEGIES_AI = {
+    "empathique":   empathique,
+    "calculateur":  calculateur,
+}
 ALL_STRATEGIES = {**STRATEGIES_CODEES, **STRATEGIES_AI}
 
 # ── Simulation d'un match ─────────────────────────────────────────────────────
