@@ -1,0 +1,18 @@
+# Environnement virtuel
+.venv/
+
+# Données (ne pas fournir selon consignes du prof)
+bronze/
+silver/
+gold/
+
+# dbt
+prisoner_dilemma/target/
+prisoner_dilemma/dbt_packages/
+prisoner_dilemma/logs/
+
+# Python
+__pycache__/
+*.pyc
+*.save
+logs/
